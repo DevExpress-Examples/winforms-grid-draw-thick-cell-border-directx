@@ -9,7 +9,7 @@
 
 This example shows how to draw a thick border around a grid cell under the mouse pointer:
 
-![WinForms Data Grid - Draw thick cell borders by handling the PaintX event](https://raw.githubusercontent.com/DevExpress-Examples/how-to-draw-thick-cell-borders-by-handling-the-paint-event-e2732/17.2.3%2B/media/winforms-grid-paintx.gif)
+![WinForms Data Grid - Draw thick cell borders by handling the PaintX event](media/winforms-grid-paintx.gif)
 
 The example handles the grid's [PaintEx](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl.PaintEx) event to draw a border. The `PaintEx` event allows you to use DirectX-compatible APIs (`e.Cache`):
 
@@ -41,3 +41,4 @@ private void DrawHotTrackedCell(GraphicsCache cache) {
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
